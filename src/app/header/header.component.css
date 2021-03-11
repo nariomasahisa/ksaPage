@@ -4,3 +4,11 @@ p {
 h1 {
   font-size: 40px;
 }
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+li {
+  padding-left: 5px;
+}
