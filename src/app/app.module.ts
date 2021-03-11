@@ -50,12 +50,24 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
+import { LinkPicturesComponent } from './link-pictures/link-pictures.component';
+import { ContentComponent } from './content/content.component';
+import { ConsultComponent } from './consult/consult.component';
+import { NewsComponent } from './news/news.component';
+import { TopComponent } from './top/top.component';
+import { EmptyComponent } from './empty/empty.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    LinkPicturesComponent,
+    ContentComponent,
+    ConsultComponent,
+    NewsComponent,
+    TopComponent,
+    EmptyComponent
   ],
   imports: [
     BrowserModule,

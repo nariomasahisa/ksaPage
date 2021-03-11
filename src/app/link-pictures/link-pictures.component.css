@@ -1,0 +1,9 @@
+.link-pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.upper-pictures {
+    margin: 30px auto;
+}
