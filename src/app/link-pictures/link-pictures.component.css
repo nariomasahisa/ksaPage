@@ -1,5 +1,8 @@
 .link-pictures {
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .upper-pictures {
     margin: 30px auto;
