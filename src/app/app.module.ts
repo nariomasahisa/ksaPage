@@ -54,6 +54,8 @@ import { LinkPicturesComponent } from './link-pictures/link-pictures.component';
 import { ContentComponent } from './content/content.component';
 import { ConsultComponent } from './consult/consult.component';
 import { NewsComponent } from './news/news.component';
+import { TopComponent } from './top/top.component';
+import { EmptyComponent } from './empty/empty.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +65,9 @@ import { NewsComponent } from './news/news.component';
     LinkPicturesComponent,
     ContentComponent,
     ConsultComponent,
-    NewsComponent
+    NewsComponent,
+    TopComponent,
+    EmptyComponent
   ],
   imports: [
     BrowserModule,
