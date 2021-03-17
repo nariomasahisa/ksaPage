@@ -6,9 +6,9 @@ h1 {
 }
 ul {
   list-style: none;
-  display: flex;
-  justify-content: left;
+  text-align: right;
 }
 li {
+  display: inline;
   padding-left: 5px;
 }
